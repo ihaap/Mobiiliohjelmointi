@@ -22,7 +22,7 @@ export default function App() {
     } else if (arvauksesi > satunnaisluku) {
       setVastaus(`Luku ${arvauksesi} on liian suuri, yritä uudelleen!`);
     } else {
-      setVastaus(`Oikein! Arvauksia: ${arvaukset}`);
+      setVastaus(`Oikein! Arvauksia: ${arvaukset + 1}`);
     }
   };
 
