@@ -16,7 +16,7 @@ export default function App() {
     const url = 'https://api.apilayer.com/exchangerates_data/latest';
     const options = {
       headers: {
-        apikey: 'Lpw300ofbVF6y9sBpLLKvmnXQI49OWyj'
+        apikey: 'INSERT_YOUR_API_KEY_HERE'
       }
     };
 
