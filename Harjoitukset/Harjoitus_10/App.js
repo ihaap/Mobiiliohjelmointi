@@ -28,7 +28,7 @@ export default function App() {
 
   const findLocation = async () => {
     try {
-      const response = await fetch(`https://geocode.maps.co/search?q=${encodeURIComponent(address)}&api_key=6743da958a098996089419ivkd79762`);
+      const response = await fetch(`https://geocode.maps.co/search?q=${encodeURIComponent(address)}&api_key={api_key_here}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
