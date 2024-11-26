@@ -2,7 +2,8 @@ import * as Contacts from 'expo-contacts';
 import { useState } from 'react';
 import { Button, FlatList, StyleSheet, Text, View } from 'react-native';
 
-export default function T13Kontakti() {
+
+export default function App() {
   const [contacts, setContacts] = useState([]);
 
   const getContacts = async () => {
@@ -14,7 +15,6 @@ export default function T13Kontakti() {
       setContacts(data);
     }
   };
-
   return (
     <View style={styles.container}>
       <FlatList
@@ -32,6 +32,7 @@ export default function T13Kontakti() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
